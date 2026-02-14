@@ -47,12 +47,13 @@ header {
     padding-left: 80px;
     border-radius: 10px;
     main {
-      width: clamp(270px, 420px, 493px);
+      width: clamp(295px, 420px, 493px);
       height: clamp(314px, 312px, 360px);
 
       color: #fefcf7;
       h1 {
-        
+        width: 493px;
+        height: 145px;
         font-family: Fraunces;
         font-weight: 900;
         font-style: Black;
@@ -61,7 +62,8 @@ header {
         letter-spacing: 0px;
       }
       p {
-        
+        width: 493px;
+        height: 78px;
         font-family: Barlow;
         font-weight: 400;
         font-style: Regular;
@@ -102,14 +104,16 @@ header {
       border-radius: 10px;
 
       main {
-        
+        width: 100%;
+        height: 314px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 32px;
         h1 {
-         
+          width: 295px;
+          height: 81px;
           font-family: Fraunces;
           font-weight: 900;
           font-style: Black;
@@ -119,7 +123,8 @@ header {
           text-align: center;
         }
         p {
-           
+          width: 295px;
+          height: 104px;
           font-family: Barlow;
           font-weight: 400;
           font-style: Regular;
@@ -148,7 +153,8 @@ header {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-     
+      width: 100%;
+      height: 504px;
       padding-top: 12px;
       padding-right: 12px;
       padding-bottom: 12px;
