@@ -203,8 +203,7 @@ header {
 }
 
 #section2 {
-  width: 1110px;
-    height: 192px;
+   
   .container {
     width: 1110px;
     height: 192px;
@@ -218,8 +217,7 @@ header {
 }
 @media screen and (max-width: 767px) {
   #section2 {
-     width: 343px !important;
-          height: 41px;
+     
       
     .container {
      
@@ -236,8 +234,7 @@ header {
 }
 @media screen and (max-width: 1023px) {
   #section2 {
-      width: 704px;
-      height: 101px;
+     
     .container {
        
 
