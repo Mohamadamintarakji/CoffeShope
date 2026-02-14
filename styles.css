@@ -47,8 +47,7 @@ header {
     padding-left: 80px;
     border-radius: 10px;
     main {
-      width: clamp(295px, 420px, 493px);
-      height: clamp(314px, 312px, 360px);
+    
 
       color: #fefcf7;
       h1 {
