@@ -43,21 +43,19 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
+    padding-left: 80px;
 
     main {
-      width: clamp(295px, 30vw, 493px);
-      height: clamp(314px, 25vw, 360px);
+      width: clamp(320px, 30vw, 493px);
+      height: clamp(350px, 25vw, 360px);
       color: #fefcf7;
       display: flex;
       gap: 32px;
       flex-direction: column;
       justify-content: center;
-      
-       
-       h1 {
+
+      h1 {
         width: clamp(295px, 30vw, 493px);
-        height: 145px;
         font-family: Fraunces;
         font-weight: 900;
         font-style: Black;
@@ -75,7 +73,7 @@ header {
         line-height: 160%;
         letter-spacing: 0px;
       }
-       button {
+      button {
         width: 218px;
         height: 57px;
         padding-top: 12px;
@@ -92,27 +90,32 @@ header {
   }
 }
 @media screen and (max-width: 767px) {
-  #section1{
-    .container{
+  #section1 {
+    .container {
       width: 90%;
-    border-radius: 10px; 
+      background-image: url(./materials/tablet.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position: 10%;
+      border-radius: 10px;
       display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      main {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        main{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 1rem;
-          text-align: center;
-        }
-       
+        gap: 1rem;
+        text-align: center;
+      }
     }
   }
-  
 }
+
 /* #section1 {
   div {
     height: 584px;
