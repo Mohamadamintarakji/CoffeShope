@@ -203,25 +203,51 @@ header {
 }
 
 #section2 {
+  width: 1110px;
+    height: 192px;
   .container {
     width: 1110px;
     height: 192px;
+    position: relative;
+    .overlay{
+      position: absolute;
+      top: -20%;
+    }
   }
   margin-top: 140px;
 }
 @media screen and (max-width: 767px) {
   #section2 {
+     width: 343px !important;
+          height: 41px;
+      
     .container {
-      width: 343px !important;
-      height: 41px;
+     
+
+         width: 343px !important;
+          height: 41px;
+       img{
+        width: 100%;
+        height: 100%;
+      }
+     
     }
   }
 }
 @media screen and (max-width: 1023px) {
   #section2 {
-    .container {
       width: 704px;
       height: 101px;
+    .container {
+       
+
+        width: 704px;
+      height: 101px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      
     }
   }
 }
