@@ -146,7 +146,7 @@ header {
     }
   }
 }
-@media screen  and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   #section1 {
     div {
       background-image: url(./materials/Hero\ Image.svg);
@@ -203,18 +203,11 @@ header {
 }
 
 #section2 {
-  .container{
-    width:  1110px;
- height: 192px;
- background-image: url(./materials/our\ collection.svg);
- background-position: center;
- background-size: cover;
- background-repeat: none;
- 
+  .container {
+    width: 1110px;
+    height: 192px;
   }
   margin-top: 140px;
-  
-   
 }
 @media screen and (max-width: 767px) {
   #section2 {
@@ -233,15 +226,11 @@ header {
   }
 }
 
-
-
 #section3 {
   .container {
-     width: 100%;
-     
+    width: 100%;
+
     .main1 {
-       
-     
       h1 {
         font-family: Fraunces;
         font-weight: 900;
@@ -252,7 +241,6 @@ header {
         color: #333d4b;
       }
       p {
-         
         font-family: Barlow;
         font-weight: 400;
         font-style: Regular;
@@ -266,10 +254,8 @@ header {
 }
 @media screen and (max-width: 767px) {
   #section3 {
-  
     .container {
-        width: 100%;
-    
+      width: 100%;
 
       display: flex;
       flex-direction: column;
@@ -278,28 +264,24 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
- 
       }
     }
   }
 }
 @media screen and (max-width: 1200px) {
-  #section3{
-     
-    .container{
+  #section3 {
+    .container {
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
 
-      .content{
-        display: flex; 
+      .content {
+        display: flex;
         justify-content: center;
-         flex-direction: column;
-
+        flex-direction: column;
       }
     }
   }
-  
 }
