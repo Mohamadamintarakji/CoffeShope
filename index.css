@@ -469,7 +469,6 @@ header {
 
 #section4 {
   .container {
-    padding-top: 96px;
     color: #fefcf7;
     display: flex;
     gap: 64px;
@@ -477,6 +476,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #333d4b;
+    padding-top: 96px;
     main {
       width: 540px;
       height: 160px;
@@ -485,6 +485,7 @@ header {
     .cards {
       display: flex;
       gap: 32px;
+
       .card1 {
         width: 348.66668701171875px;
         height: 354px;
@@ -522,25 +523,32 @@ header {
 @media screen and (max-width: 767px) {
   #section4 {
     .container {
+      width: 343px;
+      height: 577px;
       main {
-        width: 343px;
-        height: 286px;
-        padding-right: 10px;
-        padding-left: 10px;
-
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
         p {
+          text-align: center;
           font-weight: 400;
-
           font-size: 16px;
           line-height: 160%;
+          width: 311px;
+          height: 158px;
         }
       }
       .cards {
+        height: 50%;
         display: flex;
         flex-direction: column;
         .card1 {
           width: 280px;
-         
+
           height: 258.84564208984375px;
           padding-top: 12px;
           padding-right: 10px;
@@ -549,16 +557,14 @@ header {
           border-radius: 10px;
           display: flex;
           flex-direction: column;
-           
+
           h3 {
-             
             margin: 0;
           }
           p {
-             
             margin: 0;
           }
-          img{
+          img {
             margin: 0;
           }
         }
@@ -586,7 +592,7 @@ header {
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 2rem;
+
           div {
             h3 {
               text-align: start;
