@@ -93,11 +93,11 @@ header {
     justify-content: center;
     align-items: start;
     main {
-      width: 445px;
+      width: 303px;
       height: 173px;
       justify-content: flex-start;
       h1 {
-        width: 445px;
+        width: 303px;
         height: 45px;
         text-align: start;
       }
