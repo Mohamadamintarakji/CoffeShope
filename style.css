@@ -484,6 +484,7 @@ header {
       display: flex;
       flex-direction: column;
       gap: 32px;
+      margin-bottom: 13px;
 
       h2 {
         text-align: center;
