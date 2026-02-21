@@ -565,7 +565,7 @@ header {
       .cards {
         display: flex !important;
         flex-direction: column !important;
-        transform: translateY(-18%);
+        transform: translateY(-15%);
         .card1 {
           width: 280px;
           height: 275px;
