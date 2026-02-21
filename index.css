@@ -515,7 +515,7 @@ header {
       gap: 32px !important;
       justify-content: center;
       align-items: center;
-      transform: translateY(clamp(-263px, -25vh, -60px));
+      transform: translateY( -172px);
 
       .card1 {
         width: 348.6666564941406px;
