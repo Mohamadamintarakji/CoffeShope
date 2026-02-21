@@ -503,7 +503,7 @@ header {
   }
 }
 @media screen and (max-width: 767px) {
-  #section4 {
+  #cardSection {
     .container {
       width: 343px;
       height: 577px;
@@ -555,7 +555,7 @@ header {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  #section4 {
+  #cardSection {
     .container {
       .cards {
         display: flex !important;
