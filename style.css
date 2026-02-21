@@ -515,7 +515,7 @@ header {
       gap: 32px !important;
       justify-content: center;
       align-items: center;
-      transform: translateY(clamp(-120px, -8vw, -60px));
+      transform: translateY(-60%);
 
       .card1 {
         width: 348.6666564941406px;
@@ -565,6 +565,7 @@ header {
       .cards {
         display: flex !important;
         flex-direction: column !important;
+        transform: translateY(-18%);
         .card1 {
           width: 280px;
           height: 275px;
@@ -591,6 +592,7 @@ header {
         display: flex !important;
         flex-direction: column !important;
         gap: 24px !important;
+        transform: translateY(-20%);
 
         .card1 {
           width: 573px;
