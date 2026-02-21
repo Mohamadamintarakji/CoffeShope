@@ -554,7 +554,7 @@ header {
     .container {
       .cards { 
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         .card1 {
           width: 280px; 
           height: 258.84564208984375px;
