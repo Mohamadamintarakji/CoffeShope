@@ -467,7 +467,7 @@ header {
  
  */
 
-#section4 {
+/* #section4 {
   .container {
     width: 1280px;
     height: 577px;
@@ -502,7 +502,7 @@ header {
     }
   }
 }
-
+ */
 
 #cardSection {
   .container {
@@ -552,6 +552,7 @@ header {
 @media screen and (max-width: 767px) {
  #cardSection {
     .container {
+     
       .cards { 
         display: flex !important;
         flex-direction: column !important;
