@@ -476,20 +476,23 @@ header {
     gap: 64px;
     justify-content: center;
     background-color: #333d4b;
-    padding-top: clamp(48px, 10vh, 96px);
+    padding-top: clamp(48px, 14vh, 96px);
     main {
-      width: clamp(311px, 42vw, 540px);
-      height: clamp(96px, 12vh, 160px);
+      width: clamp(311px, 49vw, 540px); 
       padding-right: 16px;
-      padding-left: 16px; 
+      padding-left: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      
       h2 {
-         text-align: center;
+        text-align: center;
         font-family: Fraunces;
         font-weight: 900;
         font-style: Black;
         font-size: 50px;
         line-height: 120%;
-        letter-spacing: 0px; 
+        letter-spacing: 0px;
       }
       p {
         text-align: center;
@@ -500,7 +503,6 @@ header {
         font-size: 18px;
         line-height: 160%;
         letter-spacing: 0px;
-         
       }
     }
   }
@@ -518,17 +520,19 @@ header {
       .card1 {
         width: 348.6666564941406px;
         height: 353.9998779296875px;
+        color: #fefcf7;
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+        background-color: #0e8784;
         padding-top: 12px;
         padding-right: 10px;
         padding-bottom: 12px;
         padding-left: 10px;
+        opacity: 1;
         border-radius: 10px;
-        color: #fefcf7;
-        display: flex;
-        gap: 24px;
-        justify-content: center;
-        align-items: center;
-        background-color: #0e8784;
+
         h3 {
           font-family: Fraunces;
           font-weight: 900;
@@ -536,6 +540,7 @@ header {
           font-size: 24px;
           line-height: 150%;
           letter-spacing: 0px;
+          margin-bottom: 15px;
           text-align: center;
         }
         p {
@@ -548,7 +553,7 @@ header {
           text-align: center;
         }
         img {
-          margin-bottom: 24px;
+          margin-bottom: 15px;
         }
       }
     }
@@ -562,15 +567,9 @@ header {
         flex-direction: column !important;
         .card1 {
           width: 280px;
-          height: 258.84564208984375px;
-          padding-top: 12px;
-          padding-right: 10px;
-          padding-bottom: 12px;
-          padding-left: 10px;
-          border-radius: 10px;
+          height: 275px;
           display: flex;
           flex-direction: column;
-
           h3 {
             margin: 0;
           }
@@ -601,12 +600,21 @@ header {
           padding-bottom: 12px;
           padding-left: 10px;
           opacity: 1;
+          border-radius: spacing/100;
           border-radius: 10px;
           display: flex;
-          justify-content: center;
-          align-items: center;
+          gap:48px;
+          .img1 {
+            width: 60px !important;
+            height: 60.845645904541016px !important;
+            opacity: 1;
+          }
 
           div {
+            width: 369px;
+            height: 108px;
+            opacity: 1;
+
             h3 {
               text-align: start;
             }
