@@ -553,7 +553,7 @@ header {
  #cardSection {
     .container {
       .cards { 
-        display: flex;
+        display: flex !important;
         flex-direction: column !important;
         .card1 {
           width: 280px; 
