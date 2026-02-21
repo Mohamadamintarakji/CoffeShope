@@ -469,12 +469,12 @@ header {
 
 #section4 {
   .container {
+    width: 1280px;
+    height: 577px;
     color: #fefcf7;
     display: flex;
     gap: 64px;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #333d4b;
     padding-top: 96px;
     main {
@@ -498,42 +498,6 @@ header {
         line-height: 160%;
         letter-spacing: 0px;
         text-align: center;
-      }
-    }
-    .cards {
-      display: flex;
-      gap: 32px;
-
-      .card1 {
-        width: 348.66668701171875px;
-        height: 354px;
-        display: flex;
-        gap: 24px;
-
-        justify-content: center;
-        align-items: center;
-        background-color: #0e8784;
-        h3 {
-          font-family: Fraunces;
-          font-weight: 900;
-          font-style: Black;
-          font-size: 24px;
-          line-height: 150%;
-          letter-spacing: 0px;
-          text-align: center;
-        }
-        p {
-          font-family: Barlow;
-          font-weight: 400;
-          font-style: Regular;
-          font-size: 16px;
-          line-height: 160%;
-          letter-spacing: 0px;
-          text-align: center;
-        }
-        img {
-          margin-bottom: 24px;
-        }
       }
     }
   }
@@ -624,6 +588,52 @@ header {
     }
   }
 }
+#cardSection {
+  .container {
+    .cards {
+      display: flex;
+      gap: 32px !important;
+
+      .card1 {
+        width: 348.6666564941406px;
+        height: 353.9998779296875px;
+        padding-top: 12px;
+        padding-right: 10px;
+        padding-bottom: 12px;
+        padding-left: 10px;
+        border-radius: 10px;
+        color: #fefcf7;
+        display: flex;
+        gap: 24px; 
+        justify-content: center;
+        align-items: center;
+        background-color: #0e8784;
+        h3 {
+          font-family: Fraunces;
+          font-weight: 900;
+          font-style: Black;
+          font-size: 24px;
+          line-height: 150%;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+        p {
+          font-family: Barlow;
+          font-weight: 400;
+          font-style: Regular;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+        img {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}
+
 #section5 {
   .container {
     main {
@@ -641,8 +651,7 @@ header {
           height: 355px;
           display: flex;
           flex-direction: column;
-          gap: 40px ;
-          
+          gap: 40px;
         }
       }
     }
