@@ -368,8 +368,16 @@ header {
     }
   }
 }
-@media screen and (min-width: 768px) {
-  #ourhead .container{
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  #ourhead .container {  
+    width: 704px;
+    align-items: start;
+    justify-content: start;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #ourhead .container {
+     width: 1047px; 
     align-items: start;
     justify-content: start;
   }
@@ -404,7 +412,7 @@ header {
         letter-spacing: 0px;
         text-align: center;
       }
-      p { 
+      p {
         font-family: Barlow;
         font-weight: 400;
         font-style: Regular;
@@ -422,17 +430,39 @@ header {
     .container {
       width: 704px;
       height: 256.9560546875px;
-      flex-direction: row; 
+      flex-direction: row;
       justify-content: space-around;
       .cardd {
         justify-content: start;
         align-items: start;
-        
-        h2{
-           text-align: start;
+
+        h2 {
+          text-align: start;
         }
         p {
-           text-align: start;
+          text-align: start;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  #cards {
+    .container {
+      width: 1047px;
+      height: 256.9560546875px;
+      flex-direction: row;
+      justify-content: space-between;
+      .cardd {
+        justify-content: start;
+        align-items: start;
+
+        h2 {
+          text-align: start;
+        }
+        p {
+          text-align: start;
           padding: 0;
         }
       }
@@ -462,7 +492,7 @@ footer {
       display: flex;
       gap: 20px;
       opacity: 1;
-      a { 
+      a {
         font-family: Barlow;
         font-weight: 700;
         font-style: Bold;
@@ -473,13 +503,11 @@ footer {
         text-decoration: none;
         color: #83888f;
       }
-       
     }
-    .imgss{
-        display: flex; 
-        gap: 25px; 
-      }
-   
+    .imgss {
+      display: flex;
+      gap: 25px;
+    }
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -498,7 +526,7 @@ footer {
     }
   }
 }
- 
+
 @media screen and (min-width: 1280px) {
   footer {
     .container {
