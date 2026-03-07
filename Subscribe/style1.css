@@ -136,7 +136,7 @@ header {
 #section2 {
   .container {
     width: 343px;
-    height: 1055px;
+    height: 1100px;
     background-color: #333d4b;
     display: flex;
     flex-direction: column;
@@ -291,7 +291,7 @@ header {
 }
 
 #section3 {
- margin-top: 64px;
+  margin-top: 64px;
   .container {
     width: 343px;
     gap: 64px;
@@ -341,7 +341,7 @@ header {
         h2 {
           color: #83888f;
         }
-        opacity: 0.5;
+        opacity: 0.4;
       }
     }
 
@@ -351,13 +351,21 @@ header {
         width: 343px !important;
         gap: 16px;
 
-        .show {
+        .accordion-body{
           display: flex;
           flex-direction: column;
           gap: 16px;
-          padding: 0;
+          padding: 10px;
         }
-
+        button {
+          font-family: Fraunces;
+          font-weight: 900;
+          font-style: Black;
+          font-size: 28px;
+          line-height: 120%;
+          letter-spacing: 0px;
+          color: #83888f;
+        }
         main {
           border-radius: 8px;
           padding: 24px;
@@ -365,7 +373,249 @@ header {
           flex-direction: column;
           gap: 16px;
           background-color: #f4f1eb;
+          h3 {
+            font-family: Fraunces;
+            font-weight: 900;
+            font-style: Black;
+            font-size: 28px;
+            line-height: 120%;
+            letter-spacing: 0px;
+            color: #333d4b;
+          }
+          p {
+            font-family: Barlow;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0px;
+            color: #333d4b;
+          }
         }
+      }
+    }
+    .orderSummary {
+      width: 343px;
+      height: 274px;
+      padding: 2rem;
+      background-color: #2c343e;
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      h4 {
+        font-family: Barlow;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        color: #ffffff;
+        opacity: 0.5;
+      }
+      h3 {
+        width: 295px;
+        height: 144px;
+        font-family: Fraunces;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0px;
+        color: #ffffff;
+      }
+    }
+    .btnPlan {
+      width: 343px;
+      display: flex;
+      justify-content: end;
+      button {
+        width: 218px;
+        height: 57px;
+        border: none;
+        border-radius: 4px;
+        background-color: #e2dedb;
+        font-family: Fraunces;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 18px;
+        line-height: 140%;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #fefcf7;
+      }
+    }
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  #section3 {
+    .container {
+      width: 704px;
+      gap: 64px;
+      .line {
+        width: 704px;
+        gap: 20px;
+      }
+      .summaryBox {
+        width: 704px;
+        height: 291px;
+        gap: 32px;
+        .orderSummary {
+          width: 704px;
+          h3 {
+            width: 602px;
+            height: 72px;
+            span {
+              color: #0e8784;
+            }
+          }
+        }
+        .btnPlan {
+          width: 704px;
+        }
+      }
+      .collapse2 {
+        div {
+          width: 704px;
+          .accordion-body {
+            display: flex;
+            justify-content: space-between;
+
+            main {
+              width: 215.66665649414062px;
+              height: 170px;
+              border-radius: 4px;
+              padding: 20px;
+              margin: 0;
+              gap: 0;
+              h3 {
+                height: 36px;
+              }
+              p {
+                width: 178.66665649414062px;
+                height: 78px;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  #section3 {
+    .container {
+      width: 1110px; 
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: start;
+      .line {
+        width: 251.80865478515625px;
+        height: 376px;
+        gap: 24px;
+      }
+      .collapse2 {
+        width: 730.1913452148438px; 
+        gap: 80px;
+        div {
+          margin: 0;
+          width: 730.1913452148438px; 
+          .accordion-body {
+            display: flex;
+            justify-content: space-between;
+             main {
+              width: 215.66665649414062px;
+              height: 170px;
+              border-radius: 4px;
+              padding: 20px;
+              margin: 0;
+              gap: 0;
+              h3 {
+                height: 36px;
+              }
+              p {
+                width: 178.66665649414062px;
+                height: 78px;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  .container {
+    width: 343px;
+    height: 180.2021484375px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    opacity: 1;
+    background-color: #333d4b;
+    nav {
+      display: flex;
+      gap: 20px;
+      opacity: 1;
+      a {
+        font-family: Barlow;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: 0.92px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #83888f;
+      }
+    }
+    .imgss {
+      display: flex;
+      gap: 25px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    .container {
+      width: 100%;
+      height: 120px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      nav {
+        flex-direction: row;
+        gap: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  footer {
+    .container {
+      width: 100%;
+      height: 120px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      nav {
+        flex-direction: row;
+        gap: 40px;
       }
     }
   }
