@@ -461,5 +461,28 @@
         </div>
       </div>
     </footer>
+    <script>
+
+const sections = document.querySelectorAll(
+"#section1, #section2, #section3, footer"
+);
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+
+  });
+},{
+  threshold:0.2
+});
+
+sections.forEach(section=>{
+  observer.observe(section);
+});
+
+</script>
   </body>
 </html>
