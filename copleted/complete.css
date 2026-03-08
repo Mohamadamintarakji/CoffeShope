@@ -7,14 +7,15 @@
   box-sizing: border-box;
 }
 header  {
-  margin-bottom: 40px;
-
+   
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.322);
   .container {
     width: 1269px;
     max-width: 90%;
     padding-top: clamp(24px, 5vw, 40px);
 
     nav {
+        
       display: flex;
       gap: 33px;
       a {
@@ -30,6 +31,24 @@ header  {
       }
     }
   }
+}
+ 
+.offcanvas {
+  width: 100px;              
+  background-color: #333;     
+  color: #fff;               
+  box-shadow: -4px 0 15px rgba(0,0,0,0.3);  
+  border-left: 1px solid #444;  
+}
+
+.offcanvas .nav-link {
+  color: #fff;                 
+  font-size: 16px;            
+  padding: 10px 0;             
+  transition: all 0.3s;        
+} 
+.offcanvas h5 {
+  font-weight: 700;        
 }
 #section1 {
   margin-bottom: 80px;
